@@ -1,5 +1,6 @@
 import urllib3
 import re
+import os
 
 #GENERATES FILES FOR STRUCTURES
 def filegenerator():
@@ -21,6 +22,9 @@ def filegenerator():
 
 def createfile(name,structure):
     print(name, ' downloaded')
+    isExist = os.path.exists('structures/')
+    if not isExist:
+        os.makedirs('structures/')
     f = open('structures/'+name+'.txt','w')
     for line in structure:
         f.write(line+'\n')
