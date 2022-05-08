@@ -6,5 +6,10 @@ The libraries needed are all included in Python 3 :
 tkinter, urllib3, re, os
 
 How does it work :
-Start the main.py file with Python.
-Choose the parameters you want in the terminal, and the structures you want to put.
+1) Download the python files in the same directory
+2) Create a directory nmed "structures" along with those files
+3) Start the main.py file with Python.
+4) Choose the parameters you want in the terminal, and the structures you want to put.
+
+Nota bene :
+As webscraping is not very reliable, you can find all of the structures in .txt files in this repository.
